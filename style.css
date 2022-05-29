@@ -106,7 +106,7 @@
 
 /* New Task */
 
-.new-task-section {
+.new-task {
   margin: 16px 0;
 }
 
@@ -145,13 +145,13 @@
   width: 226px;
 }
 
-.del__img {
+.del-item__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.del__img:hover {
+.del-item__img:hover {
   transform: rotateZ(0);
 }
 
@@ -173,6 +173,6 @@
   width: 224px;
 }
 
-.edited{
+.task-edited{
   display: none;
 }
